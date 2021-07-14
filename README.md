@@ -54,7 +54,7 @@ jobs:
     steps:
       # This step installs Deno, which is a new Javascript runtime that improves on Node. Can be used for an optional postprocessing step
       - name: Setup deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@v1
         with:
           deno-version: v1.10.x
       # Check out the repository so it can read the files inside of it and do other operations
